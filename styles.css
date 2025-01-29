@@ -1,0 +1,68 @@
+/public/styles.css
+/* Main styling for the spelling game */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #4a90e2;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#game-container {
+    text-align: center;
+}
+
+button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+#speak-button {
+    font-size: 20px;
+    background-color: #5cb85c;
+}
+
+input {
+    padding: 10px;
+    font-size: 18px;
+    width: 80%;
+    margin: 20px 0;
+    border: 2px solid #4a90e2;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#score-display, #question-number {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #666;
+}
+
+#result-container {
+    text-align: center;
+}
